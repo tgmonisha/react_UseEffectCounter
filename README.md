@@ -1,12 +1,43 @@
-# React + Vite
+# React useEffect Counter Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 This is a simple React project demonstrating the use of **useEffect** and **useState** hooks.  
+The app dynamically updates the **page title** with the counter value and displays it on the page.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- ➕ Increase counter value by clicking the button  
+- 🔄 Updates **document title** automatically using `useEffect`
+- 🔁 Reset counter value to 1 using Reset button 
+- 🖥️ Displays updated counter value on the page  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Output Screenshots
+
+###
+![Output1](./output1.png)  
+
+###
+![Output2](./output2.png)  
+
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **JavaScript (ES6+)**
+- **CSS** for basic styling  
+
+---
+
+## ▶️ How to Run
+```bash
+# Clone the repository
+git clone https://github.com/tgmonisha/react_UseEffectCounter.git
+
+# Navigate into the project folder
+cd react_UseEffectCounter
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
